@@ -81,7 +81,7 @@ async function main() {
     max_messages: MAX_CONCURRNECY,
     callback: async (message) => {
       logger(`Processing message: ${message.data.toString()}`);
-      await Bun.sleep(3_000);
+      await new Promise((resolve) => setTimeout(resolve, 3_000));
       logger(`Finished processing message: ${message.data.toString()}`);
       message.ack();
     },

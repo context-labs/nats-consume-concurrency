@@ -2,7 +2,7 @@
 
 This example demonstrates how NATS JetStream handles message consumption concurrency using a callback method.
 
-To run the example, use `bun run index.ts`.
+To run the example, install dependencies with `bun` or `npm`, then run with `bun run index.ts` or `npx tsx index.ts`.
 
 You can edit `MAX_CONCURRNECY` and `NUMBER_OF_CONCURRENT_MESSAGES_TO_PUBLISH` to see how the behavior changes with different numbers of messages and concurrency.
 
