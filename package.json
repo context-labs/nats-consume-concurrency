@@ -1,0 +1,16 @@
+{
+  "name": "nats-batch-consumer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nats-io/jetstream": "^3.0.0-35",
+    "@nats-io/nats-core": "^3.0.0-48",
+    "@nats-io/transport-node": "^3.0.0-33"
+  }
+}
