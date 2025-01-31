@@ -57,7 +57,7 @@ async function main() {
       // we will wait for 1 millisecond for the consumer to ack the messages
       // this will ensure that the messages don't get stuck as
       // outstanding ack's
-      ack_wait: nanos(1000 * 1),
+      // ack_wait: nanos(1000 * 1),
       max_waiting: 100_000,
     });
     logger("Consumer created");
